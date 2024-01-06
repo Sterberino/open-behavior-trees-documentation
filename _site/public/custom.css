@@ -1,0 +1,136 @@
+img.svg{
+    width: 50px;
+    height: 50px;
+    filter: var(--icon-filter);
+}
+
+.flex-row{
+    display:flex; 
+    flex-direction:row; 
+}
+
+.space-between{
+    justify-content: space-between; 
+}
+
+.small-h2{
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+p{
+    margin: 0;
+}
+
+.flex-row > .link{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+table.table {
+    position: relative;
+    width: 100%;
+    margin: 0px 0 30px 0;
+    font-size: 0.875em;
+    z-index: 0;
+    border: none;
+}
+
+
+
+table.table tr:nth-child(2n+1) td{
+    background-color: var(--tr-odd-bg) !important;
+    position: relative;
+    box-sizing: border-box;
+    width: 50%;
+    z-index: 2;
+    background-clip: padding-box; /* Clip the background to the content-box area (inside the border) */
+}
+
+table.table tr{
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    border: 1px solid var(--td-border-color);
+    border-top: 1px solid var(--td-border-color);
+    border-right: 1px solid var(--td-border-color);
+}
+
+table.table tr td{
+    position: relative;
+    z-index: -1;
+    border: 1px solid var(--td-border-color);
+    border-bottom: 1px solid var(--td-border-color);
+    border-top: 1px solid var(--td-border-color);
+    border-color: var(--td-border-color);
+}
+
+table.table tr td > *{
+    position: relative;
+    z-index: 3;
+}
+
+table.table tr::after{
+        content: '';
+        position: absolute;
+        z-index: 2;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        border: 1px solid transparent;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        pointer-events: none;
+    }
+
+    /* Show the border when the container is hovered */
+    table.table tr:hover::after {
+        border: 1px solid var(--table-highlight); /* Change the color to your desired border color */
+        opacity: 1;
+    }
+
+table.table tbody tr td{
+    border: none;
+    background-color: transparent;
+    background: none;
+    z-index: 2;
+}
+
+table.table tbody tr td:first-child{
+    z-index: 2;
+    position: relative;
+    border-right: 1px solid var(--td-border-color);
+}
+
+a.link{
+    --bs-link-hover-color-rgb: 255, 26, 117;
+    --bs-link-color-rgb: 255, 26, 117;
+}
+
+a.anchorjs-link{
+    --bs-link-hover-color-rgb: 255, 26, 117;
+    --bs-link-color-rgb: 255, 26, 117;
+}
+
+[data-bs-theme="dark"]{
+    --bs-body-color: rgb(211, 207, 201);
+    --bs-heading-color: rgb(226, 232, 240);
+    --bs-body-bg: rgb(33, 37, 41); /*Background page color*/
+    --tr-odd-bg: rgb(40, 44, 48);
+    --td-border-color: rgb(55, 60, 62);
+    --table-highlight: cyan;
+    --icon-filter: invert(100%);
+}
+
+[data-bs-theme="light"]
+{
+    --bs-body-color: #455463;
+    --bs-heading-color: #1b2229;
+    --bs-body-bg: #fff; /*Background page color*/
+    --tr-odd-bg: #F8F8F8;
+    --td-border-color: #E6E6E6;
+    --table-highlight: cyan;
+    --icon-filter: none;
+}

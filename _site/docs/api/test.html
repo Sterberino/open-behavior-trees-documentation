@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> | openbehaviortrees.io </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" | openbehaviortrees.io ">
+      
+      <link rel="icon" href="../../images/favicon.svg">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/logo2.svg" alt="Open Behavior Trees">
+            Open Behavior Trees
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<style>
+    img.svg{
+        width: 50px;
+        height: 50px;
+        filter: var(--icon-filter);
+    }
+
+    .flex-row{
+        display:flex; 
+        flex-direction:row; 
+    }
+
+    .space-between{
+        justify-content: space-between; 
+    }
+
+    .small-h2{
+        font-size: 1.125rem;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    table.table {
+        position: relative;
+        width: 100%;
+        margin: 0px 0 30px 0;
+        font-size: 0.875em;
+        z-index: 0;
+        border: none;
+    }
+
+
+
+    table.table tr:nth-child(2n+1) td{
+        background-color: var(--tr-odd-bg) !important;
+        position: relative;
+        box-sizing: border-box;
+        width: 50%;
+        z-index: 2;
+        background-clip: padding-box; /* Clip the background to the content-box area (inside the border) */
+    }
+
+    table.table tr{
+        position: relative;
+        z-index: 1;
+        box-sizing: border-box;
+        border: 1px solid var(--td-border-color);
+        border-top: 1px solid var(--td-border-color);
+        border-right: 1px solid var(--td-border-color);
+    }
+
+    table.table tr td{
+        position: relative;
+        z-index: -1;
+        border: 1px solid var(--td-border-color);
+        border-bottom: 1px solid var(--td-border-color);
+        border-top: 1px solid var(--td-border-color);
+        border-color: var(--td-border-color);
+    }
+
+    table.table tr::after{
+            content: '';
+            position: absolute;
+            z-index: 2;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            border: 1px solid transparent;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        /* Show the border when the container is hovered */
+        table.table tr:hover::after {
+            border: 1px solid var(--table-highlight); /* Change the color to your desired border color */
+            opacity: 1;
+        }
+
+    table.table tbody tr td{
+        border: none;
+        background-color: transparent;
+        background: none;
+        z-index: 2;
+    }
+
+    table.table tbody tr td:first-child{
+        z-index: 2;
+        position: relative;
+        border-right: 1px solid var(--td-border-color);
+    }
+
+    a.link{
+        --bs-link-hover-color-rgb: 255, 26, 117;
+        --bs-link-color-rgb: 255, 26, 117;
+    }
+
+    a.anchorjs-link{
+        --bs-link-hover-color-rgb: 255, 26, 117;
+        --bs-link-color-rgb: 255, 26, 117;
+    }
+
+    [data-bs-theme="dark"]{
+        --bs-body-color: rgb(211, 207, 201);
+        --bs-heading-color: rgb(226, 232, 240);
+        --bs-body-bg: rgb(33, 37, 41); /*Background page color*/
+        --tr-odd-bg: rgb(40, 44, 48);
+        --td-border-color: rgb(55, 60, 62);
+        --table-highlight: cyan;
+        --icon-filter: invert(100%);
+    }
+
+    [data-bs-theme="light"]
+    {
+        --bs-body-color: #455463;
+        --bs-heading-color: #1b2229;
+        --bs-body-bg: #fff; /*Background page color*/
+        --tr-odd-bg: #F8F8F8;
+        --td-border-color: #E6E6E6;
+        --table-highlight: cyan;
+        --icon-filter: none;
+    }
+</style>
+<h2 class="header">BehaviorTreeNode</h2>
+<div class="flex-row space-between">
+    <div class="flex-row">
+        <p style="margin-right:10px">class in OpenBehaviorTrees</p>
+        <p style="margin-right:10px">/</p>
+        <p>inherits from: </p>
+        <a class="link" href="https://docs.unity3d.com/Manual/class-ScriptableObject.html">ScriptableObject</a>
+    </div>
+    <a class="link" style="text-align: right" href="mailto:zacharyruiz1@gmail.com" target="_blank">Leave Feedback</a>
+</div>
+<h2 class="small-h2 header">Description</h2>
+<p>Derive from this class to create a custom Behavior Tree Node<p>
+<h2 class="small-h2 header">Properties</h2>
+<table class="table">
+    <tbody>
+        <tr>
+            <td>stuff</td>
+            <td>stuff</td>
+        </tr>
+        <tr>
+            <td>stuff</td>
+            <td>stuff</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

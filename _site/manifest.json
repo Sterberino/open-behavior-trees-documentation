@@ -1,0 +1,158 @@
+{
+  "source_base_path": "C:/Users/Zachary/Desktop/DocFX-open-behavior-trees",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "code-examples/BehaviorTreeNode-Evaluate.cs",
+      "output": {
+        "resource": {
+          "relative_path": "code-examples/BehaviorTreeNode-Evaluate.cs"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTreeNode-Clone.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTreeNode-Clone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTreeNode-Evaluate.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTreeNode-Evaluate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTreeNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTreeNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/ScriptReference/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/ScriptReference/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo2.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo2.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "docs/ScriptReference/BehaviorTreeNode-Clone.html": {
+    "href": "docs/ScriptReference/BehaviorTreeNode-Clone.html",
+    "title": "| openbehaviortrees.io",
+    "keywords": "BehaviorTreeNode.Clone public BehaviorTreeNode Clone; Leave Feedback Description An abstract method returning a BehaviorTreeNode. Required to create a runtime instance. Example using System.Collections; using System.Collections.Generic; using UnityEngine; using UnityEditor; using OpenBehaviorTrees; public class CloneExample : BehaviorTreeNode { //The following example will clone all of the fields of the original object (this) public override BehaviorTreeNode Clone() { CloneExample clonedNode = CreateInstance<CloneExample>(); // Use reflection to get all fields FieldInfo[] fields = typeof(CloneExample).GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance); foreach (FieldInfo field in fields) { // Copy the value of each field from the original to the cloned object field.SetValue(clonedNode, field.GetValue(this)); } return clonedNode; } }"
+  },
+  "docs/ScriptReference/BehaviorTreeNode-Evaluate.html": {
+    "href": "docs/ScriptReference/BehaviorTreeNode-Evaluate.html",
+    "title": "| openbehaviortrees.io",
+    "keywords": "BehaviorTreeNode.Evaluate public BehaviorTreeNodeResult Evaluate(BehaviorTree behaviorTree); Leave Feedback Description Ran when the behavior tree ticks. Returns BehaviorTreeNodeResult.success, BehaviorTreeNodeResult.failure, or BehaviorTreeNodeResult.running. Example using System.Collections; using System.Collections.Generic; using UnityEngine; using UnityEditor; using OpenBehaviorTrees; public class Example : BehaviorTreeNode { public Vector3 target; public float maxDistance; //Return failure if too far away from the target. Return true if within range. public override BehaviorTreeNodeResult Evaluate(BehaviorTree behaviorTree) { if (Vector3.Distance(behaviorTree.transform.position, target) < maxDistance) { return BehaviorTreeNodeResult.success; } return BehaviorTreeNodeResult.failure; } }"
+  },
+  "docs/ScriptReference/BehaviorTreeNode.html": {
+    "href": "docs/ScriptReference/BehaviorTreeNode.html",
+    "title": "| openbehaviortrees.io",
+    "keywords": "BehaviorTreeNode class in OpenBehaviorTrees / inherits from: ScriptableObject Leave Feedback Description Derive from this class to create a custom Behavior Tree Node. Public Methods Evaluate Ran when the behavior tree ticks. Returns BehaviorTreeNodeResult.success, BehaviorTreeNodeResult.failure, or BehaviorTreeNodeResult.running. Clone An abstract method returning a BehaviorTreeNode. Required to create a runtime instance. GetAllChildren Returns a list of all children nodes. OnValidate An empty virtual method exists in the BehaviorTreeNode class. The method is called after changing values in the BehaviorTreeEditorWindow."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | openbehaviortrees.io",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | openbehaviortrees.io",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | openbehaviortrees.io",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

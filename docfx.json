@@ -1,0 +1,36 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "code-examples/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default", 
+      "modern",
+      "my-template"
+    ],
+    "globalMetadata": {
+      "_appName": "Open Behavior Trees",
+      "_appTitle": "openbehaviortrees.io",
+      "_appLogoPath": "images/logo2.svg",
+      "_appFaviconPath" : "images/favicon.svg",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}
