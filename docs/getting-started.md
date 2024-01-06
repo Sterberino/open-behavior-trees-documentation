@@ -1,5 +1,6 @@
-## How to Get Started
+## Getting Started
 
+<p>I will not be covering the steps required to install a github package. The package can be found <a class="link" href="https://github.com/Sterberino/open-behavior-trees/">here</a>. You will need to install the package before continuing to the next steps.</p>
 <p>The first thing to do is add the behavior tree component to a GameObject</p>
 <br/>
 <img class="centered" src="../images/Behavior-Tree-Component.png" alt="Behavior Tree Component" width="550"/>
@@ -44,6 +45,7 @@
 
 <p>The Inspector window works exactly like the Unity's built-in inspector window. You may also set an icon for a Node type,
 which will be visible in the project window and on the nodes in the Node Editor Window.</p>
+<br/>
 <img class="centered" src="../images/Inspector.png" alt="Inspector" width="550"/>
 <br/>
 <br/>

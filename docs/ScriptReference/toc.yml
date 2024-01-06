@@ -9,11 +9,23 @@
       href: BehaviorTreeNode-Clone.md
     - name: BehaviorTreeNode.GetAllChildren
       href: BehaviorTreeNode-GetAllChildren.md
-- name: DecoratorNode
-  href: DecoratorNode.md
-- name: AlwaysFailNode
-  href: AlwaysFailNode.md
-- name: AlwaysSucceedNode
-  href: AlwaysSucceedNode.md
-- name: BehaviorTreeRootNode
-  href: BehaviorTreeRootNode.md
+- name: Decorators
+  items:
+    - name: DecoratorNode
+      href: DecoratorNode.md
+    - name: InverterNode
+      href: InverterNode.md
+    - name: AlwaysFailNode
+      href: AlwaysFailNode.md
+    - name: AlwaysSucceedNode
+      href: AlwaysSucceedNode.md
+    - name: BehaviorTreeRootNode
+      href: BehaviorTreeRootNode.md
+- name: Composites
+  items:
+    - name: CompositeNode
+      href: CompositeNode.md
+- name: ConditionNode
+  href: ConditionNode.md
+- name: TaskNode
+  href: TaskNode.md

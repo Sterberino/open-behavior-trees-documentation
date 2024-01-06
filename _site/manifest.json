@@ -102,10 +102,50 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/CompositeNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/CompositeNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/ConditionNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/ConditionNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/ScriptReference/DecoratorNode.md",
       "output": {
         ".html": {
           "relative_path": "docs/ScriptReference/DecoratorNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/InverterNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/InverterNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/TaskNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/TaskNode.html"
         }
       },
       "version": ""
