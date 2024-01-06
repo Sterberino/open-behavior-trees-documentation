@@ -22,6 +22,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/AlwaysFailNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/AlwaysFailNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/AlwaysSucceedNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/AlwaysSucceedNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/ScriptReference/BehaviorTreeNode-Clone.md",
       "output": {
         ".html": {
@@ -71,6 +91,26 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTreeRootNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTreeRootNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/DecoratorNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/DecoratorNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/ScriptReference/toc.yml",
       "output": {
@@ -112,6 +152,96 @@
         },
         ".json": {
           "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Behavior-Tree-Component.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Behavior-Tree-Component.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Behavior-Tree-Node-Window.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Behavior-Tree-Node-Window.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Blackboard.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Blackboard.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Copy-Paste.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Copy-Paste.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Create-Node.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Create-Node.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Inspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Inspector.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Multi-Select-Drag.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Multi-Select-Drag.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Nodes-List.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Nodes-List.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Open-Node.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Open-Node.png"
         }
       },
       "version": ""

@@ -13,10 +13,23 @@ img.svg{
     justify-content: space-between; 
 }
 
+.centered{
+    position: relative;
+    justify-self: center;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+
+    opacity: 0.1;
+}
+
 .small-h2{
     font-size: 1.125rem;
     font-weight: 500;
     margin-top: 1.5rem;
+}
+
+p.paragraph-block{
+    margin: 1rem !important;
 }
 
 p{

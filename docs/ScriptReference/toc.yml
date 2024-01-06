@@ -1,3 +1,5 @@
+- name: BehaviorTreeNodeResult
+  href: BehaviorTreeNodeResult.md
 - name: BehaviorTreeNode
   href: BehaviorTreeNode.md
   items:
@@ -7,5 +9,11 @@
       href: BehaviorTreeNode-Clone.md
     - name: BehaviorTreeNode.GetAllChildren
       href: BehaviorTreeNode-GetAllChildren.md
-- name: BehaviorTreeNodeResult
-  href: BehaviorTreeNodeResult.md
+- name: DecoratorNode
+  href: DecoratorNode.md
+- name: AlwaysFailNode
+  href: AlwaysFailNode.md
+- name: AlwaysSucceedNode
+  href: AlwaysSucceedNode.md
+- name: BehaviorTreeRootNode
+  href: BehaviorTreeRootNode.md
