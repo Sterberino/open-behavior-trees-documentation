@@ -5,3 +5,7 @@
       href: BehaviorTreeNode-Evaluate.md
     - name: BehaviorTreeNode.Clone
       href: BehaviorTreeNode-Clone.md
+    - name: BehaviorTreeNode.GetAllChildren
+      href: BehaviorTreeNode-GetAllChildren.md
+- name: BehaviorTreeNodeResult
+  href: BehaviorTreeNodeResult.md

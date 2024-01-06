@@ -25,12 +25,12 @@
             <td>An abstract method returning a BehaviorTreeNode. Required to create a runtime instance.</td>
         </tr>
         <tr>
-            <td><a class="link">GetAllChildren</a></td>
-            <td>Returns a list of all children nodes.</td>
+            <td><a class="link" href="BehaviorTreeNode-GetAllChildren.md">GetAllChildren</a></td>
+            <td>Returns a list of all children nodes. For non-decorator, non-composite nodes, the list will be empty.</td>
         </tr>
         <tr>
-            <td><a class="link">OnValidate</a></td>
-            <td>An empty virtual method exists in the BehaviorTreeNode class. The method is called after changing values in the BehaviorTreeEditorWindow.</td>
+            <td><a class="link" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.OnValidate.html">OnValidate</a></td>
+            <td>An empty virtual method exists in the BehaviorTreeNode class. The method is called after changing values in the BehaviorTreeEditorWindow. Override it if you need custom behavior in OnValidate.</td>
         </tr>
     </tbody>
 

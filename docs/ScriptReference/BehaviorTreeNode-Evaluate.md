@@ -1,13 +1,9 @@
----
-isNavigationIncluded: false
----
-
 <h2 class="header"><a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNode</a>.Evaluate</h2>
 
 <div class="flex-row space-between">
     <div class="flex-row">
         <p>public </p>
-        <a class="link" href= "https://docs.unity3d.com/Manual/class-ScriptableObject.html">BehaviorTreeNodeResult</a>
+        <a class="link" href= "BehaviorTreeNodeResult.md">BehaviorTreeNodeResult</a>
         <p>Evaluate(BehaviorTree behaviorTree);</p>
     </div>
     <a class="link" style="text-align: right" href="mailto:zacharyruiz1@gmail.com" target="_blank">Leave Feedback</a>

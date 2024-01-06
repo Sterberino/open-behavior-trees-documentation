@@ -42,10 +42,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTreeNode-GetAllChildren.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTreeNode-GetAllChildren.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/ScriptReference/BehaviorTreeNode.md",
       "output": {
         ".html": {
           "relative_path": "docs/ScriptReference/BehaviorTreeNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTreeNodeResult.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTreeNodeResult.html"
         }
       },
       "version": ""

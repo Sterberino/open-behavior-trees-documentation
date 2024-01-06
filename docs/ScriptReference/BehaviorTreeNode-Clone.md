@@ -1,7 +1,3 @@
----
-isNavigationIncluded: false
----
-
 <h2 class="header"><a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNode</a>.Clone</h2>
 
 <div class="flex-row space-between">
@@ -33,7 +29,11 @@ public class CloneExample : BehaviorTreeNode
         CloneExample clonedNode = CreateInstance<CloneExample>();
 
         // Use reflection to get all fields
-        FieldInfo[] fields = typeof(CloneExample).GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+        FieldInfo[] fields = typeof(CloneExample).GetFields(
+            BindingFlags.Public |
+            BindingFlags.NonPublic |
+            BindingFlags.Instance
+        );
 
         foreach (FieldInfo field in fields)
         {
