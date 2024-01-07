@@ -141,6 +141,7 @@ a.anchorjs-link{
     --td-border-color: rgb(55, 60, 62);
     --table-highlight: cyan;
     --icon-filter: invert(100%);
+    --bs-link-hover-color-rgb: 255, 26, 117;
 }
 
 [data-bs-theme="light"]
@@ -152,4 +153,5 @@ a.anchorjs-link{
     --td-border-color: #E6E6E6;
     --table-highlight: cyan;
     --icon-filter: none;
+    --bs-link-hover-color-rgb: 255, 26, 117;
 }
