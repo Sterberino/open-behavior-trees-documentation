@@ -27,6 +27,8 @@
       href: SubTreeNode.md
     - name: UtilityEvaluator
       href: UtilityEvaluator.md
+    - name: UtilityDecorator
+      href: UtilityDecorator.md
 - name: Composites
   items:
     - name: CompositeNode
@@ -45,3 +47,8 @@
   href: ConditionNode.md
 - name: TaskNode
   href: TaskNode.md
+- name: WaitNode
+  href: WaitNode.md
+  items:
+    - name: WaitNode.TimeType
+      href: WaitNode-TimeType.md
