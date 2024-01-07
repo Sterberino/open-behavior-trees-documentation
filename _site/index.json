@@ -131,7 +131,7 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | openbehaviortrees.io",
-    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "Open Behavior Trees | openbehaviortrees.io",
+    "keywords": "Open Behavior Trees Open Behavior Trees is an open-source, flexible Behavior Tree implementation for Unity. It is inspired by BehaviorDesigner and other Behavior Tree implementations. Behavior Trees are an industry-standard method of creating complex, modular, and flexible AI for video games, and without a built-in solution, the Unity engine lags behind other engines such as Unreal Engine. Popular implementations available on the Unity Asset Store can be as expensive as $80, which is an expense that hobbyists and independant developers may not be able to afford. This was my primary reason for creating this package. If you enjoy this package, and the following documentation, I only ask that you let me know by starring the GitHub repo here. Enjoy!"
   }
 }

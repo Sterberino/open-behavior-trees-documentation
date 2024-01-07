@@ -4,6 +4,10 @@ img.svg{
     filter: var(--icon-filter);
 }
 
+h1.landing{
+    margin: 1rem !important;
+}
+
 .flex-row{
     display:flex; 
     flex-direction:row; 
