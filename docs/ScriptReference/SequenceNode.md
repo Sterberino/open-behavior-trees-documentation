@@ -1,4 +1,4 @@
-<h2 class="header">SequencerNode</h2>
+<h2 class="header">SequenceNode</h2>
 
 <div class="flex-row space-between">
     <div class="flex-row">
@@ -13,9 +13,9 @@
 <h2 class="small-h2 header">Description</h2>
 <p> A composite node that runs all of its children in order.</p>
 <br/>
-<p> For each child, if the child returns success, the Sequencer continues and evaluates the next child.</p>
-<p>If the child returns running, the Sequencer returns running and will start evaulation from that child next time it is ticked. </p>
-<p>If no child returns success or running, the sequencer returns failure.</p>
+<p> For each child, if the child returns success, the Sequence Node continues and evaluates the next child.</p>
+<p>If the child returns running, the Sequence Node returns running and will start evaulation from that child next time it is ticked. </p>
+<p>If no child returns success or running, the Sequence Node returns failure.</p>
 
 <h2 class="small-h2 header">Inherited Members</h2>
 

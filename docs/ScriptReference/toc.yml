@@ -29,8 +29,8 @@
   items:
     - name: CompositeNode
       href: CompositeNode.md
-    - name: SequencerNode
-      href: SequencerNode.md
+    - name: SequenceNode
+      href: SequenceNode.md
     - name: SelectorNode
       href: SelectorNode.md
     - name: ParallelNode

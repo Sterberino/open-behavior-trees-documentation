@@ -172,10 +172,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/ScriptReference/SequencerNode.md",
+      "source_relative_path": "docs/ScriptReference/SequenceNode.md",
       "output": {
         ".html": {
-          "relative_path": "docs/ScriptReference/SequencerNode.html"
+          "relative_path": "docs/ScriptReference/SequenceNode.html"
         }
       },
       "version": ""
