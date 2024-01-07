@@ -221,6 +221,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/UtilitySelector.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/UtilitySelector.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/ScriptReference/toc.yml",
       "output": {

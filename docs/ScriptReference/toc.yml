@@ -39,6 +39,8 @@
       href: ParallelNode.md
     - name: UtilityComposite
       href: UtilityComposite.md
+    - name: UtilitySelector
+      href: UtilitySelector.md
 - name: ConditionNode
   href: ConditionNode.md
 - name: TaskNode
