@@ -201,6 +201,26 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/UtilityComposite.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/UtilityComposite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/UtilityEvaluator.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/UtilityEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/ScriptReference/toc.yml",
       "output": {

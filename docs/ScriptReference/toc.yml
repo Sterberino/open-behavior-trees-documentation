@@ -25,6 +25,8 @@
       href: RepeaterNode.md
     - name: SubTreeNode
       href: SubTreeNode.md
+    - name: UtilityEvaluator
+      href: UtilityEvaluator.md
 - name: Composites
   items:
     - name: CompositeNode
@@ -35,6 +37,8 @@
       href: SelectorNode.md
     - name: ParallelNode
       href: ParallelNode.md
+    - name: UtilityComposite
+      href: UtilityComposite.md
 - name: ConditionNode
   href: ConditionNode.md
 - name: TaskNode
