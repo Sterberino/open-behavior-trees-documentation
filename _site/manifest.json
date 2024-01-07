@@ -162,6 +162,36 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/SelectorNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/SelectorNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/SequencerNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/SequencerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/SubTreeNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/SubTreeNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/ScriptReference/TaskNode.md",
       "output": {
         ".html": {
