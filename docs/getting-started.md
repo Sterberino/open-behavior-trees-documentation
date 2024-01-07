@@ -1,7 +1,8 @@
 ## Getting Started
 
-<p>I will not be covering the steps required to install a github package. The package can be found <a class="link" href="https://github.com/Sterberino/open-behavior-trees/">here</a>. You will need to install the package before continuing to the next steps.</p>
-<p>The first thing to do is add the behavior tree component to a GameObject</p>
+<p>In order to use this package, you must install it from GitHub. The package can be found <a class="link" href="https://github.com/Sterberino/open-behavior-trees/">here</a>. A guide on how to install a Unity Package from GitHub can be found <a class="link" href="https://docs.unity3d.com/Manual/upm-ui-giturl.html">here</a>.</p>
+<br/>
+<p>The next thing to do is add the behavior tree component to a GameObject</p>
 <br/>
 <img class="centered" src="../images/Behavior-Tree-Component.png" alt="Behavior Tree Component" width="550"/>
 <br/>
