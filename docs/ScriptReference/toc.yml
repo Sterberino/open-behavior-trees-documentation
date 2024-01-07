@@ -21,6 +21,8 @@
       href: AlwaysSucceedNode.md
     - name: BehaviorTreeRootNode
       href: BehaviorTreeRootNode.md
+    - name: RepeaterNode
+      href: RepeaterNode.md
 - name: Composites
   items:
     - name: CompositeNode

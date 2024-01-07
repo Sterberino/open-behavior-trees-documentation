@@ -17,7 +17,7 @@
 <table class="table">
     <tbody>
         <tr>
-            <td><a class="link" href= "BehaviorTreeNodeResult.md">BehaviorTreeNodeResult</a>defaultToResult</td>
+            <td><div class="flex-row"><a class="link" href= "BehaviorTreeNodeResult.md">BehaviorTreeNodeResult</a> <p>defaultToResult</p></div></td>
             <td>The default value returned by Evaluate if the children nodes do not return the same result.</td>
         </tr>
     </tbody>
@@ -29,8 +29,8 @@
 <table class="table">
     <tbody>
         <tr>
-            <td>children</td>
-            <td>A list of children nodes: List<<a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNode</a>> children;</td>
+            <td>List<<a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNode</a>> children</td>
+            <td>A list of children nodes.</td>
         </tr>
     </tbody>
 </table>

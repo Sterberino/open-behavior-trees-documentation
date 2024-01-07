@@ -19,7 +19,7 @@
 <table class="table">
     <tbody>
         <tr>
-            <td>child</td>
+            <td><a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNode</a> child</td>
             <td>The child node. See <a class="link" href= "DecoratorNode.md">DecoratorNode</a>.</td>
         </tr>
     </tbody>

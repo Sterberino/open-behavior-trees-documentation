@@ -21,7 +21,7 @@
 <table class="table">
     <tbody>
         <tr>
-            <td>child</td>
+            <td><a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNode</a> child</td>
             <td>The child node of the decorator. Call child.Evaluate(BehaviorTree behaviorTree) in your override of Evaluate().</td>
         </tr>
     </tbody>

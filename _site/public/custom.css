@@ -10,7 +10,8 @@ img.svg{
 }
 
 .variable-name{
-    color: var(--bs-link-color-rgb);
+    --bs-link-color-rgb: 255, 26, 117;
+    color: rgb(var(--bs-link-color-rgb));
     font-family: monospace;
 }
 

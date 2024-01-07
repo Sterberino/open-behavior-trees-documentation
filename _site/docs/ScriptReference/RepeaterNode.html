@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Sterberino/OpenBehaviorTrees-documentation/blob/main/docs/ScriptReference/AlwaysFailNode.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/Sterberino/OpenBehaviorTrees-documentation/blob/main/docs/ScriptReference/RepeaterNode.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -86,7 +86,7 @@
 
         <article data-uid="">
 
-<h2 class="header">AlwaysFailNode</h2>
+<h2 class="header">RepeaterNode</h2>
 <div class="flex-row space-between">
     <div class="flex-row">
         <p style="margin-right:10px">class in OpenBehaviorTrees</p>
@@ -97,14 +97,33 @@
     <a class="link" style="text-align: right" href="mailto:zacharyruiz1@gmail.com" target="_blank">Leave Feedback</a>
 </div>
 <h2 class="small-h2 header">Description</h2>
-<p>A decorator node whose <a class="link" href="BehaviorTreeNode-Evaluate.html">Evaluate</a> method always returns <a class="link" href="BehaviorTreeNodeResult.html">BehaviorTreeNodeResult</a>.failure.<p>
+<p>
+    A decorator node that repeats its behavior either a set number of times, or indefinitely.
+</p>
+<h2 class="small-h2 header">Properties</h2>
+<table class="table">
+    <tbody>
+        <tr>
+            <td><span class="variable-name">bool</span> repeatForever</td>
+            <td>If set to true, the repeater will repeat indefinitely.</td>
+        </tr>
+        <tr>
+            <td><span class="variable-name">int</span> repeatCount</td>
+            <td>The number of times the node should repeat if not set to repeat forever.</td>
+        </tr>
+        <tr>
+            <td><a class="link" href="BehaviorTreeNodeResult.html">BehaviorTreeNodeResult</a> resultOnComplete</td>
+            <td>The result that is returned when the the repeater finishes repeating. Set to success by default.</td>
+        </tr>
+    </tbody>
+</table>
 <h2 class="small-h2 header">Inherited Members</h2>
 <h2 class="small-h2 header">Properties</h2>
 <table class="table">
     <tbody>
         <tr>
             <td><a class="link" href="BehaviorTreeNode.html">BehaviorTreeNode</a> child</td>
-            <td>The child node. See <a class="link" href="DecoratorNode.html">DecoratorNode</a>.</td>
+            <td>The child node that is repeated. See <a class="link" href="DecoratorNode.html">DecoratorNode</a>.</td>
         </tr>
     </tbody>
 </table>
@@ -133,7 +152,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Sterberino/OpenBehaviorTrees-documentation/blob/main/docs/ScriptReference/AlwaysFailNode.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Sterberino/OpenBehaviorTrees-documentation/blob/main/docs/ScriptReference/RepeaterNode.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
