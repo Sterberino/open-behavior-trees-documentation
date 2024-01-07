@@ -44,7 +44,7 @@
 
 ## Inspector
 
-<p>The Inspector window works exactly like the Unity's built-in inspector window. You may also set an icon for a Node type,
+<p>The Inspector window works exactly like Unity's built-in inspector window. You may also set an icon for a Node type,
 which will be visible in the project window and on the nodes in the Node Editor Window.</p>
 <br/>
 <img class="centered" src="../images/Inspector.png" alt="Inspector" width="550"/>
