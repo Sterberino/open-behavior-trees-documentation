@@ -25,6 +25,8 @@
   items:
     - name: CompositeNode
       href: CompositeNode.md
+    - name: ParallelNode
+      href: ParallelNode.md
 - name: ConditionNode
   href: ConditionNode.md
 - name: TaskNode

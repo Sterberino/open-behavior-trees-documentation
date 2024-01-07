@@ -9,6 +9,11 @@ img.svg{
     flex-direction:row; 
 }
 
+.variable-name{
+    color: var(--bs-link-color-rgb);
+    font-family: monospace;
+}
+
 .space-between{
     justify-content: space-between; 
 }
@@ -18,8 +23,8 @@ img.svg{
     justify-self: center;
     margin-top: 0.6rem;
     margin-bottom: 0.6rem;
-
-    opacity: 0.1;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .small-h2{

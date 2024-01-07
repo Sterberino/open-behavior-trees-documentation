@@ -142,6 +142,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/ParallelNode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/ParallelNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/ScriptReference/TaskNode.md",
       "output": {
         ".html": {
