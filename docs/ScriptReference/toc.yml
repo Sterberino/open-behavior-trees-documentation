@@ -1,3 +1,7 @@
+- name: BehaviorTree
+  href: BehaviorTree.md
+- name: Blackboard
+  href: Blackboard.md
 - name: BehaviorTreeNodeResult
   href: BehaviorTreeNodeResult.md
 - name: BehaviorTreeNode

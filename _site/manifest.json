@@ -42,6 +42,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTree.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTree.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/ScriptReference/BehaviorTreeNode-Clone.md",
       "output": {
         ".html": {
@@ -96,6 +106,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/ScriptReference/BehaviorTreeRootNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/Blackboard.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/Blackboard.html"
         }
       },
       "version": ""
