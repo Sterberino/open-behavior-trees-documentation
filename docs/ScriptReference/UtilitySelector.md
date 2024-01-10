@@ -11,11 +11,21 @@
 </div>
 
 <h2 class="small-h2 header">Description</h2>
-<p>The UtilitySelector node selects from a list of <a class="link" href= "UtilityEvaluator.md">UtilityEvaluator</a> child nodes to return the UtilityEvaluator's child node's <a class="link" href = "BehaviorTreeNode-Tick.md">Tick</a> method.</p>
+<p>The UtilitySelector node selects from a list of <a class="link" href= "UtilityEvaluator.md">UtilityEvaluator</a> child nodes to return the UtilityEvaluator's child node's <a class="link" href = "BehaviorTreeNode-Evaluate.md">Evaluate</a> method.</p>
 <br/>
 <p>Each UtilityEvaluator node has a GetScore method, which returns a float. The UtilitySelector gets the scores of all of its children, and selects the child to evaluate based on its score.<p>
 <br/>
 <p><span class="variable-name">chooseFromTopResults</span> determines which node is selected for evaluation. If <span class="variable-name">chooseFromTopResults</span> is 0, the UtilityEvaluator with the highest score is selected for evaluation, otherwise, it is randomly selected from the top <span class="variable-name">chooseFromTopResults</span> scoring nodes.<p>
+
+<h2 class="small-h2 header">Properties</h2>
+<table class="table">
+    <tbody>
+        <tr>
+            <td><span class="variable-name">int chooseFromTopResults</span></td>
+            <td>The UtilitySelector chooses randomly from the top x nodes, where x=<span class="variable-name">chooseFromTopResults</span>. If <span class="variable-name">chooseFromTopResults</span> is 0, the UtilitySelector chooses the top scoring node.</td>
+        </tr>
+    </tbody>
+</table>
 
 <h2 class="small-h2 header">Inherited Members</h2>
 <h2 class="small-h2 header">Properties</h2>
