@@ -10,4 +10,4 @@
 </div>
 
 <h2 class="small-h2 header">Description</h2>
-<p>An event that is invoked with a <a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNode</a> as a parameter (<a class="link" href= "https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a><<a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNode</a>>). It is invoked by behavior tree nodes in the <a class="link" href = "BehaviorTreeNode-Tick.md">Tick</a> method before returning.<p>
+<p>An event that is invoked with a <a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNode</a> as a parameter (<a class="link" href= "https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a><<a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNode</a>>). It is invoked by behavior tree nodes in the <a class="link" href = "BehaviorTreeNode-Tick.md">Tick</a> method before returning, using the node as the parameter.<p>
