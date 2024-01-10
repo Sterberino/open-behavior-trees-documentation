@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/Zachary/Desktop/DocFX-open-behavior-trees",
+  "source_base_path": "C:/Users/Zachary/Documents/GitHub/DocFX-open-behavior-trees",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -82,10 +82,50 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTreeNode-OnInit.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTreeNode-OnInit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTreeNode-OnStart.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTreeNode-OnStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTreeNode-Tick.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTreeNode-Tick.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/ScriptReference/BehaviorTreeNode.md",
       "output": {
         ".html": {
           "relative_path": "docs/ScriptReference/BehaviorTreeNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/ScriptReference/BehaviorTreeNodeEvent.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ScriptReference/BehaviorTreeNodeEvent.html"
         }
       },
       "version": ""

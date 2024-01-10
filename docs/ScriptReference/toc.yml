@@ -4,15 +4,23 @@
   href: Blackboard.md
 - name: BehaviorTreeNodeResult
   href: BehaviorTreeNodeResult.md
+- name: BehaviorTreeNodeEvent
+  href: BehaviorTreeNodeEvent.md
 - name: BehaviorTreeNode
   href: BehaviorTreeNode.md
   items:
-    - name: BehaviorTreeNode.Evaluate
-      href: BehaviorTreeNode-Evaluate.md
+    - name: BehaviorTreeNode.Tick
+      href: BehaviorTreeNode-Tick.md
     - name: BehaviorTreeNode.Clone
       href: BehaviorTreeNode-Clone.md
     - name: BehaviorTreeNode.GetAllChildren
       href: BehaviorTreeNode-GetAllChildren.md
+    - name: BehaviorTreeNode.Evaluate
+      href: BehaviorTreeNode-Evaluate.md
+    - name: BehaviorTreeNode.OnInit
+      href: BehaviorTreeNode-OnInit.md
+    - name: BehaviorTreeNode.OnStart
+      href: BehaviorTreeNode-OnStart.md
 - name: Decorators
   items:
     - name: DecoratorNode

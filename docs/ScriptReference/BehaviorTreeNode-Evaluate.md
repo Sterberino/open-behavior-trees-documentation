@@ -2,15 +2,15 @@
 
 <div class="flex-row space-between">
     <div class="flex-row">
-        <p>public </p>
+        <p>protected </p>
         <a class="link" href= "BehaviorTreeNodeResult.md">BehaviorTreeNodeResult</a>
-        <p>Evaluate(BehaviorTree behaviorTree);</p>
+        <p>Evaluate(<a class="link" href="BehaviorTree.md">BehaviorTree</a> behaviorTree);</p>
     </div>
     <a class="link" style="text-align: right" href="mailto:zacharyruiz1@gmail.com" target="_blank">Leave Feedback</a>
 </div>
 
 <h2 class="small-h2 header">Description</h2>
-<p>Ran when the behavior tree ticks. Returns BehaviorTreeNodeResult.success, BehaviorTreeNodeResult.failure, or BehaviorTreeNodeResult.running.<p>
+<p>Ran when the node ticks. Returns BehaviorTreeNodeResult.success, BehaviorTreeNodeResult.failure, or BehaviorTreeNodeResult.running. Override this method to implement custom behavior in your BehaviorTreeNode classes.<p>
 
 <h2 class="small-h2 header">Example</h2>
 
@@ -27,7 +27,7 @@ public class Example : BehaviorTreeNode
     public float maxDistance;
 
     //Return failure if too far away from the target. Return true if within range.
-    public override BehaviorTreeNodeResult Evaluate(BehaviorTree behaviorTree)
+    protected override BehaviorTreeNodeResult Evaluate(BehaviorTree behaviorTree)
     {
         if (Vector3.Distance(behaviorTree.transform.position, target) < maxDistance)
         {

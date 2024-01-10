@@ -121,6 +121,10 @@
             <td><span class="variable-name">bool</span> startOnEnable</td>
             <td>If set to <span class="variable-name">true</span>, the behavior tree will start running when <a class="link" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnEnable.html">OnEnable</a> is called. Otherwise, you will need to call <span class="variable-name">Setup()</span> manually to start the Behavior Tree. You may wish to do this if AI agents are loaded asynchronously.</td>
         </tr>
+        <tr>
+            <td>public <a class="link" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a> onTick</td>
+            <td>Called when the behavior tree ticks if not null.</td>
+        </tr>
     </tbody>
 </table>
 <h2 class="small-h2 header">Public Methods</h2>
