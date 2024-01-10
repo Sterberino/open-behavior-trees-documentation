@@ -1,4 +1,4 @@
-<h2 class="header"><a class="link" href= "BehaviorTreeNode.md">BehaviorTreeNodeEvent</a></h2>
+<h2 class="header">BehaviorTreeNodeEvent</h2>
 
 <div class="flex-row space-between">
     <div class="flex-row">
