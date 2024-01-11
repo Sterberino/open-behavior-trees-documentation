@@ -166,8 +166,8 @@ a{
     z-index: -1;
     height: 90%;
     width: 90%;
-    top: -5%;
     left: 5%;
+    top: 15vh;
 
     background-size: 20px 20px;
     background-image: linear-gradient(90deg, var(--grid-color),transparent 1px),linear-gradient(180deg,var(--grid-color) 1px,transparent 0);
@@ -178,14 +178,14 @@ a{
 
 section.homepage-section{
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     position: relative;
     z-index: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    top: -10%;
+    top: -10vh;
 }
 
 section.column{
@@ -213,7 +213,7 @@ a.homepage-button{
     text-decoration: none;
     border: 1px solid rgb(var(--bs-link-color-rgb));
     
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     transition: 0.3s ease all;
 }
 
@@ -230,9 +230,59 @@ a.homepage-button:hover{
     padding: 30px;
 }
 
+.features-section{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 44, 48);
+    background-size: 120%;
+    transform: translateX( calc(var(--bs-gutter-x) * -.5));
+}
+
+.features-section > .feature
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 25%;
+    padding: 50px;
+}
+
+.features-section .small-h2
+{
+    color: rgb(255, 26, 117) !important;
+}
+
+.features-section .small-h2 a
+{
+    display: none !important;
+}
+
 @media only screen and (max-width: 800px)
 {
     .homepage-image{
        display: none;
+    }
+
+        
+    section.homepage-section{
+        top: -10vh;
+    }
+}
+
+
+@media only screen and (max-width: 850px)
+{
+    .features-section{
+        flex-direction: column;
+    }
+
+    .features-section .feature{
+        width: 70%;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }

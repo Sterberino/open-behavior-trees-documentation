@@ -162,6 +162,6 @@
   "index.html": {
     "href": "index.html",
     "title": "Open Behavior Trees | openbehaviortrees.io",
-    "keywords": "Open Behavior Trees An open-source, flexible Behavior Tree implementation for Unity. It is inspired by BehaviorDesigner and other Behavior Tree implementations. If you enjoy this package, and the following documentation, let me know by starring the GitHub repo here. Enjoy! Docs"
+    "keywords": "Open Behavior Trees An open-source, flexible Behavior Tree implementation for Unity, inspired by BehaviorDesigner and other Behavior Tree implementations. Docs Hierarchical Behavior Organization Behavior trees streamline complex gameplay logic design, ensuring an intuitive gaming experience. Dynamic Adaptability Behavior trees allow for adaptive gameplay, adjusting behaviors based on player actions, enhancing engagement. Modular Scalability The modular design of behavior trees supports effortless scalability, enabling easy addition of features for long-term game success."
   }
 }
