@@ -418,6 +418,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/Editor-Example.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Editor-Example.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/Inspector.png",
       "output": {
         "resource": {
@@ -482,6 +492,16 @@
       "output": {
         "resource": {
           "relative_path": "images/logo2.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pexels-photo-1293269.jpeg",
+      "output": {
+        "resource": {
+          "relative_path": "images/pexels-photo-1293269.jpeg"
         }
       },
       "version": ""

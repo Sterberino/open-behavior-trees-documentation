@@ -147,17 +147,20 @@ a{
     --td-border-color: rgb(55, 60, 62);
     --table-highlight: cyan;
     --icon-filter: invert(100%);
+    --features-bg-color: rgb(40, 44, 48);
 }
 
 [data-bs-theme="light"]
 {
-    --bs-body-color: #455463;
-    --bs-heading-color: #1b2229;
-    --bs-body-bg: #fff; /*Background page color*/
+    --bs-body-color: #435160;
+    --bs-heading-color: rgb(25, 29, 33);
+    --bs-body-bg: #f3f3f3; /*Background page color*/
+    --bs-body-bg-rgb: 243, 243, 243;
     --tr-odd-bg: #F8F8F8;
     --td-border-color: #E6E6E6;
     --table-highlight: cyan;
     --icon-filter: none;
+    --features-bg-color: #E6E6E6;
 }
 
 .background-grid{
@@ -176,7 +179,11 @@ a{
     
 }
 
-section.homepage-section{
+nav{
+    z-index: 10;
+}
+
+section.hero-section{
     width: 100%;
     height: 85vh;
     position: relative;
@@ -186,7 +193,25 @@ section.homepage-section{
     justify-content: center;
     align-items: center;
     top: -10vh;
+    z-index: 0;
 }
+
+
+section.homepage-section{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 5px;
+}
+
 
 section.column{
     display: flex;
@@ -224,22 +249,30 @@ a.homepage-button:hover{
     color: rgb(var(--bs-link-hover-color-rgb)) !important;
 }
 
-.homepage-image{
+section.homepage-section p{
+    font-size: large;
+}
+
+* .homepage-image{
     position: relative;
     padding: 1rem;
     padding: 30px;
+    border-radius: 30px;
+    max-height: 100vh;
 }
 
 .features-section{
     width: 100vw;
     height: auto;
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(40, 44, 48);
+    background-color: var(--features-bg-color);
     background-size: 120%;
     transform: translateX( calc(var(--bs-gutter-x) * -.5));
+    margin-bottom: 10px;
 }
 
 .features-section > .feature
@@ -261,14 +294,24 @@ a.homepage-button:hover{
     display: none !important;
 }
 
+.column li{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    color: rgb(255, 26, 117);
+}
+
+.column li p{
+    color: var(--bs-body-color);
+}
+
+
 @media only screen and (max-width: 800px)
 {
-    .homepage-image{
-       display: none;
+    .hero-section{
+        flex-direction: column;
     }
-
         
-    section.homepage-section{
+    .hero-section{
         top: -10vh;
     }
 }
@@ -280,9 +323,39 @@ a.homepage-button:hover{
         flex-direction: column;
     }
 
+    section.homepage-section{
+        position: relative;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        flex-direction: column;
+        min-height: min-content;
+
+    }
+
     .features-section .feature{
         width: 70%;
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    
+    section.hero-section a:has(.homepage-image){
+        display: none;
+     }
+ 
+     section.homepage-section > *{
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        min-height: min-content;
+        display: flex;
+     }
+
+     section.homepage-section img{
+        display: none;
+     }
+
+     section.homepage-section{
+        top: 20vh;
     }
 }
