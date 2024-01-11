@@ -66,5 +66,4 @@
             <td>Ran when the node ticks for the first time, after <a class="link" href = "BehaviorTreeNode-OnInit.md">OnInit</a>. Override this method to implement custom functionality to be ran before the first tick.</td>
         </tr>
     </tbody>
-
 </table>

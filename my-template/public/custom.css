@@ -39,7 +39,9 @@ h1.landing{
 }
 
 p.paragraph-block{
-    margin: 1rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-left: 0px;
 }
 
 p{
@@ -156,4 +158,81 @@ a{
     --td-border-color: #E6E6E6;
     --table-highlight: cyan;
     --icon-filter: none;
+}
+
+.background-grid{
+    --grid-color: hsla(0,0%,69%,.2);
+    position: absolute;
+    z-index: -1;
+    height: 90%;
+    width: 90%;
+    top: -5%;
+    left: 5%;
+
+    background-size: 20px 20px;
+    background-image: linear-gradient(90deg, var(--grid-color),transparent 1px),linear-gradient(180deg,var(--grid-color) 1px,transparent 0);
+    -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%,#000 70%,transparent 100%);
+    mask-image: radial-gradient(ellipse 50% 50% at 50% 50%,#000 70%,transparent 100%);
+    
+}
+
+section.homepage-section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: -10%;
+}
+
+section.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 90%;
+    padding: 50px;
+}
+
+section.column > .landing{
+    text-align: left;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+a.homepage-button{
+    --bs-link-hover-color-rgb: 255, 60, 153;
+    background-color: rgba(var(--bs-link-color-rgb), 0);
+    border-radius: 10px;
+    width: 110px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(var(--bs-link-color-rgb));
+    
+    margin-top: 0.5rem;
+    transition: 0.3s ease all;
+}
+
+a.homepage-button:hover{
+    --bs-link-hover-color-rgb: 255, 60, 153;
+    background-color: rgba(var(--bs-link-color-rgb), 0.25);
+    border: 1px solid rgb(var(--bs-link-hover-color-rgb));
+    color: rgb(var(--bs-link-hover-color-rgb)) !important;
+}
+
+.homepage-image{
+    position: relative;
+    padding: 1rem;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 800px)
+{
+    .homepage-image{
+       display: none;
+    }
 }
